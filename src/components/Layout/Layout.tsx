@@ -1,6 +1,8 @@
-import { Footer, Header } from 'components';
+import { Footer } from 'components/Footer/Footer';
+import {Header} from 'components/Header/Header';
 
 import { LayoutWrapper } from './LayoutWrapper';
+
 
 interface Props {
   children: React.ReactElement;
